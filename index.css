@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+.box{
+  width: 270px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px 0 0 20px;
+  box-shadow: 0 0 10px #ffffff,
+               0 0 30px #727171,
+               0 0 40px #43424271;
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.circle1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #7a7a7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.circle2{
+  width: 47px;
+  height: 47px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle2 img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.btn2{
+  border: none;
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:7px;
+  cursor: pointer;
+}
+
+
+.company{
+  font-weight: 600;
+  margin-top:20px;
+ 
+
+}
+.company span{
+  font-weight: 600;
+  font-size:11px ;
+  color: #898989;
+  margin-left: 10px;
+}
+
+p{
+  font-weight: 600;
+  margin-top:10px;
+}
+
+.p{
+  display: flex;
+
+}
+
+.b{
+  width: auto;
+  max-width: 100px;
+  height: auto;
+  max-height: 25px;
+  background-color:#e0dfdf;
+  padding:5px;
+    margin-right:5px ;
+  font-size: 11px;
+  font-weight: 600;
+  color: #727171;
+  border-radius: 5px;
+  text-align: center
+}
+
+#one{
+
+  width: auto;
+  height: 50px;
+  margin-top: 100px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 3px solid rgb(221, 219, 219);
+  
+
+
+}
+.sal{
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.sal span{
+  font-size:11px;
+  color: #898989;
+}
+
+.btn1{
+  width:100px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color:black;
+  color: #f6f6f6;
+  font-size: 13px;
+  font-weight:600;
+  cursor: pointer;
+}
+
